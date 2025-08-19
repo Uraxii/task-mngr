@@ -20,8 +20,6 @@ cd task-manager
 pip install -r requirements.txt
 ```
 
-4. Logout and login again, then reconnect your printer.
-
 ## CSV Format
 
 Your CSV file should use semicolons (`;`) as delimiters and include these columns:
@@ -67,13 +65,6 @@ python main.py --test
 Use a different CSV delimiter:
 ```bash
 python main.py -f tasks.csv -d ","
-```
-
-### Verbose Output
-
-Get detailed output:
-```bash
-python main.py -f tasks.csv
 ```
 
 ## Command Line Options
