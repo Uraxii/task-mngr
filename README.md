@@ -11,7 +11,7 @@ A Python script that prints task receipts to thermal receipt printers.
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Uraxii/task-mngr
 cd task-manager
 ```
 
