@@ -11,7 +11,7 @@ A Python script that prints task receipts to thermal receipt printers.
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Uraxii/task-mngr
 cd task-manager
 ```
 
@@ -19,8 +19,6 @@ cd task-manager
 ```bash
 pip install -r requirements.txt
 ```
-
-4. Logout and login again, then reconnect your printer.
 
 ## CSV Format
 
@@ -67,13 +65,6 @@ python main.py --test
 Use a different CSV delimiter:
 ```bash
 python main.py -f tasks.csv -d ","
-```
-
-### Verbose Output
-
-Get detailed output:
-```bash
-python main.py -f tasks.csv
 ```
 
 ## Command Line Options
